@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles/novoProntuário.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Hugo Health - Novo Prontuário</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/logohh.png" alt="" />
+      <div class="path">
+        <a href="home.html">Página Inicial</a>
+        <p>></p>
+        <a href="novoProntuário.html">Novo Prontuário</a>
+      </div>
+    </header>
+
+    <div class="container">
+      <div id="dadosP">
+        <img src="assets/user 10.png" alt="" />
+        <label for="">Nome</label>
+        <input type="text" />
+        <label for="">RG</label>
+        <input type="text" name="" id="" />
+        <label for="">Data de Nascimento</label>
+        <input type="date" />
+        <input type="submit" value="Buscar" id="submit" />
+      </div>
+
+      <div id="right">
+        <div id="title">
+          <h1>DIGITE OS DADOS DO PACIENTE PARA CRIAR PRONTUÁRIO</h1>
+        </div>
+
+        <img src="assets/1623810121670 1.png" alt="" />
+      </div>
+    </div>
+  </body>
+
+  <script>
+    var btnElement = document.getElementById("submit");
+
+    btnElement.onclick = function(){
+      window.location.href = "fichaProntuário.html";
+    };
+  </script>
+</html>

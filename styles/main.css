@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: content-box;
+  font-family: Roboto;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+body {
+  background-color: #bbe09e;
+}
+
+a {
+  color: white;
+  font-size: 0.8rem;
+}
+
+header {
+  display: flex;
+  height: 85px;
+  align-items: center;
+
+  padding: 0 20px;
+
+  background-color: #7bb062;
+}
+header img {
+  width: 220px;
+  height: 80px;
+}
+
+.path {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  color: white;
+}

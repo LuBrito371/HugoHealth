@@ -1,0 +1,64 @@
+#logo {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  width: 15rem;
+}
+
+hr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 80rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem;
+}
+
+.search input {
+  width: 40rem;
+  height: 1.7rem;
+  border: 0;
+  border-radius: 10px;
+  background-image: url(/assets/Rectangle\ 15.png);
+  background-repeat: no-repeat;
+  background-color: #eef7e6;
+}
+
+#circle {
+  border: 0;
+  width: 1.5rem;
+  height: 2rem;
+  margin: 0.5rem;
+  border-radius: 50%;
+  background-color: #7bb062;
+}
+
+#perfil {
+  border-radius: 15px;
+  height: 1.5rem;
+  background-color: #7bb062;
+  margin: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+#delete {
+  border-radius: 50%;
+  width: 0.9rem;
+  height: 1.5rem;
+  border: 1px solid;
+  border-color: black;
+  background-color: #7bb062;
+  font-weight: bold;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles/fichaAtendentes.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Hugo Health - Lista de Atendentes</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/logohh.png" alt="" />
+      <div class="path">
+        <a href="home.html">Página Inicial</a>
+        <p>></p>
+        <a href="fichaAtendentes.html">Lista de Atendentes</a>
+      </div>
+    </header>
+
+    <img src="assets/FrameDeitado.png" alt="" id="flor" />
+
+    <div class="container">
+      <div id="pesquisa">
+        <input type="text" />
+        <div id="title">
+          <h1>PROCURE NA LISTA OU DIGITE O NOME DO ATENDENTE</h1>
+        </div>
+        <img src="assets/image 7.png" alt="" />
+      </div>
+      <div id="lista">
+        <div id="perfil">
+          <p id="p">Atendente</p>
+
+          <button id="delete">-</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    var divElement = document.getElementById('p');
+
+    divElement.onclick = function () {
+      window.location.href = 'perfilAtendente.html';
+    };
+  </script>
+</html>

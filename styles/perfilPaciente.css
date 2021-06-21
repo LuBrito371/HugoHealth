@@ -1,0 +1,66 @@
+.container {
+  background-color: #eef7e6;
+  margin: 1.5rem;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+#person {
+  width: 4rem;
+}
+
+#nome {
+  display: flex;
+  justify-content: center;
+}
+
+#name {
+  background-color: #7bb06299;
+  padding: 0 15rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+  border-radius: 70px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.box img {
+  width: 5rem;
+  margin-right: 1.3rem;
+}
+
+#left,
+#right {
+  display: flex;
+  flex-direction: column;
+  margin: 0 7rem;
+}
+
+#dado {
+  display: flex;
+}
+
+#linha {
+  background-color: #7bb06299;
+  border-radius: 20px;
+  padding: 0.5rem 10rem;
+  margin: 0.5rem;
+}
+
+#buttons button {
+  margin: 0 4rem;
+  border: 0;
+  border-radius: 40px;
+  background-color: #7bb062;
+  padding: 0 5rem;
+  height: 2rem;
+}

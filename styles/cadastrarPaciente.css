@@ -1,0 +1,95 @@
+.container {
+  margin: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+#title img {
+  width: 20rem;
+}
+
+#dados {
+  background-color: #eef7e6;
+  border-radius: 70px;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#dados h1,
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  color: #bbe09e;
+}
+
+#dados h1 {
+  font-size: 2.5rem;
+}
+
+#dados h2 {
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+#title {
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+#title h1 {
+  background-color: #7bb062;
+  justify-content: space-between;
+  padding: 1.2rem;
+  border-radius: 2.5rem;
+  margin-bottom: 1rem;
+  color: #bbe09e;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.5rem;
+  width: 20rem;
+}
+
+#forms {
+  display: flex;
+}
+
+#forms img {
+  width: 5rem;
+  height: 25rem;
+}
+
+#box {
+  background-color: #eef7e6;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  width: 15rem;
+  height: 27rem;
+  padding: 0 3rem;
+}
+
+#box form {
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+#box input,
+select {
+  background-color: #7bb062;
+  border: 0;
+  border-radius: 10px;
+  width: 15rem;
+  margin: 0.5rem 0;
+  height: 1.3rem;
+}
+
+#submit {
+  background-color: #7bb062;
+  border: 0;
+  border-radius: 10px;
+  width: 12rem;
+  height: 1.5rem;
+  color: white;
+}

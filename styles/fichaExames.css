@@ -1,0 +1,81 @@
+.container {
+  justify-content: space-between;
+  display: flex;
+  margin: 1rem 0;
+}
+
+#cima {
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+}
+
+#cima hr {
+  width: 20rem;
+  height: 1px;
+  background-color: #314627;
+}
+
+#cima h1 {
+  color: #7bb062;
+  font-size: 2.5rem;
+}
+
+#flor {
+  width: 4rem;
+  margin: 0 2rem;
+}
+
+#box {
+  background-color: #eef7e6;
+  padding: 2rem;
+  margin: 1rem 3rem;
+  height: 23rem;
+  border-radius: 40px;
+}
+
+#info {
+  display: flex;
+  justify-content: space-between;
+}
+
+#data,
+#hora,
+#exame {
+  background-color: #7bb062;
+  margin: 0 1rem;
+  padding: 0.3rem;
+  border-radius: 30px;
+  color: white;
+}
+
+#data,
+#hora {
+  width: 10rem;
+}
+
+#exame {
+  width: 25rem;
+}
+
+.right {
+  margin-right: 2rem;
+}
+
+.right img {
+  width: 20rem;
+  margin-top: 3rem;
+}
+
+#title {
+  background-color: #7bb062;
+  width: 17rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 30px;
+}
+
+#title h1 {
+  color: #bbe09e;
+}

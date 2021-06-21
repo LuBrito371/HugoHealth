@@ -1,0 +1,55 @@
+.container {
+  background-color: #eef7e6;
+  display: flex;
+  margin: 1.5rem 0;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+#title h1 {
+  margin: 2rem 0;
+  color: #bbe09e;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#flor {
+  width: 6rem;
+}
+
+#line {
+  height: 17rem;
+}
+
+#start {
+  justify-content: center;
+  display: flex;
+  margin-top: 1rem;
+}
+
+#start img {
+  width: 3rem;
+}
+
+#nome {
+  background-color: #7bb06299;
+  width: 20rem;
+  border-radius: 40px;
+  height: 2rem;
+  margin-left: 1rem;
+  margin-right: 10rem;
+}
+
+.caixinhas {
+  display: flex;
+}
+
+#dados {
+  background-color: #7bb06299;
+  border-radius: 40px;
+  width: 25rem;
+  height: 7.5rem;
+  margin: 2rem;
+  padding: 1.5rem;
+}

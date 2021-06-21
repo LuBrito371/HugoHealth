@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles/fichaPacientes.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Hugo Health - Consultar Pacientes</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/logohh.png" alt="" />
+      <div class="path">
+        <a href="home.html">Página Inicial</a>
+        <p>></p>
+        <a href="fichaPacientes.html">Lista de Pacientes</a>
+      </div>
+    </header>
+
+    <img src="assets/logo-deitada.jpeg" alt="" id="logo" />
+    <hr />
+
+    <div class="search">
+      <input type="text">
+      <button id="circle">
+        <a href="">+</a>
+      </button>
+    </div>
+
+    <div class="lista">
+      <div id="perfil">
+        <p id="p">Paciente</p>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    var pElement = document.getElementById("p");
+
+    pElement.onclick = function(){
+      window.location.href = 'perfilPaciente.html';
+    }
+  </script>
+</html>

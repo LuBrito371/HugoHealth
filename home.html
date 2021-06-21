@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles/home.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Hugo Health - Início</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/logohh.png" alt="" />
+      <div class="path">
+        <a href="home.html">Página Inicial</a>
+      </div>
+    </header>
+
+    <div class="navBar">
+      <div class="dropdown">
+        <button class="dropbtn">Consultas</button>
+        <div class="dropdown-content">
+          <a href="agendarConsulta.html">Agendar Consulta</a>
+          <a href="fichaConsultas.html">Lista de Consultas</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Pacientes</button>
+        <div class="dropdown-content">
+          <a href="buscarPaciente.html">Buscar Paciente</a>
+          <a href="cadastrarPaciente.html">Cadastrar Paciente</a>
+          <a href="fichaPacientes.html">Lista de Pacientes</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Prontuários</button>
+        <div class="dropdown-content">
+          <a href="buscarProntuário.html">Buscar Prontuário</a>
+          <a href="novoProntuário.html">Novo Prontuário</a>
+          <a href="fichaProntuário.html">Lista de Prontuários</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Funcionários</button>
+        <div class="dropdown-content">
+          <a href="cadastrarFuncionário.html">Cadastrar Funcionário</a>
+          <a href="fichaMedicos.html">Lista de Médicos</a>
+          <a href="fichaAtendentes.html">Lista de Atendentes</a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="wall wall-1" id="wall-1">
+        <button id="btC">
+          <a href="#wall-3"><</a>
+        </button>
+        <img src="/assets/banner1.jpeg" alt="" />
+        <button id="btC">
+          <a href="#wall-2">></a>
+        </button>
+      </div>
+
+      <div class="wall wall-2" id="wall-2">
+        <button id="btC">
+          <a href="#wall-1"><</a>
+        </button>
+        <img src="/assets/banner2.jpeg" alt="" />
+        <button id="btC">
+          <a href="#wall-3">></a>
+        </button>
+      </div>
+
+      <div class="wall wall-3" id="wall-3">
+        <button id="btC">
+          <a href="#wall-2"><</a>
+        </button>
+        <img src="/assets/banner3.jpeg" alt="" />
+        <button id="btC">
+          <a href="#wall-1">></a>
+        </button>
+      </div>
+    </div>
+
+    <div class="menu">
+      <div id="box">
+        <div id="circle">
+          <img src="assets/estetoscopio 1.png" alt="" />
+        </div>
+        <p>Consultas</p>
+        <button id="agendarC">
+          <a href="agendarConsulta.html">Agendar</a>
+        </button>
+      </div>
+
+      <div id="box">
+        <div id="circle">
+          <img src="assets/target 1.png" alt="" />
+        </div>
+        <p>Ficha de Pacientes</p>
+        <button id="agendarC">
+          <a href="fichaPacientes.html">Consultar</a>
+        </button>
+      </div>
+
+      <div id="box">
+        <div id="circle">
+          <img src="assets/insurance 1.png" alt="" />
+        </div>
+        <p>Prontuário</p>
+        <button id="agendarC">
+          <a href="buscarProntuário.html">Consultar</a>
+        </button>
+      </div>
+
+      <div id="box">
+        <div id="circle">
+          <img src="assets/doctor 1.png" alt="" />
+        </div>
+        <p>Médicos</p>
+        <button id="agendarC">
+          <a href="fichaMedicos.html">Ver</a>
+        </button>
+      </div>
+
+      <div id="box">
+        <div id="circle">
+          <img src="assets/nurses 1.png" alt="" />
+        </div>
+        <p>Atendentes</p>
+        <button id="agendarC">
+          <a href="fichaAtendentes.html">Ver</a>
+        </button>
+      </div>
+
+      <div id="box">
+        <div id="circle">
+          <img src="assets/nurse 1.png" alt="" />
+        </div>
+        <p>Funcionários</p>
+        <button id="agendarC">
+          <a href="cadastrarFuncionário.html">Cadastrar</a>
+        </button>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    window.location = '#wall-1';
+  </script>
+</html>

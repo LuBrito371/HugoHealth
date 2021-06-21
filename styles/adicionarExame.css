@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+}
+
+#logo {
+  width: 25rem;
+  margin: 0 6rem;
+}
+
+#doutor {
+  width: 34.5rem;
+}
+
+.right {
+  background-color: #eef7e6;
+  margin: 3rem 0;
+  margin-right: 8rem;
+  padding: 2rem;
+  border-radius: 70px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#outrosDados {
+  display: flex;
+}
+
+#dado {
+  display: flex;
+  flex-direction: column;
+}
+
+.right form {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.right input {
+  background-color: #7bb06299;
+  border-radius: 30px;
+  border: 0;
+  width: 10rem;
+  height: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#paciente {
+  width: 20rem;
+}
+
+.right button {
+  border: 0;
+  background-color: #7bb062;
+  color: white;
+  padding: 0.5rem 3rem;
+  border-radius: 40px;
+}

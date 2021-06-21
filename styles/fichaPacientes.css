@@ -1,0 +1,61 @@
+#logo {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  width: 15rem;
+}
+
+hr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 80rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.search input {
+  width: 40rem;
+  height: 1.25rem;
+  border: 0;
+  border-radius: 5px;
+  background-image: url(/assets/Rectangle\ 15.png);
+  background-repeat: no-repeat;
+  background-color: #eef7e6;
+}
+
+#circle {
+  border: 0;
+  margin: 0.5rem;
+  border-radius: 50%;
+  background-color: #7bb062;
+}
+
+.lista {
+  background-color: #eef7e6;
+  width: 70rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+#perfil {
+  border-radius: 5px;
+  height: 1.25rem;
+  background-color: #7bb062;
+  background-image: url(/assets/user\ 5.png);
+  background-repeat: no-repeat;
+}

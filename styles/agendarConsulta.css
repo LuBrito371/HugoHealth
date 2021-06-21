@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  margin: 0.5rem 0;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+#dadosP {
+  background-color: #eef7e6;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  width: 15rem;
+  height: 20rem;
+}
+
+input,
+label {
+  margin: 0.5rem;
+}
+
+#dadosP input {
+  border: 0;
+  border-radius: 10px;
+  background-color: #7bb06244;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 1.2rem;
+}
+
+#dadosP img {
+  width: 4rem;
+}
+
+#divisão {
+  width: 6rem;
+  margin: 0;
+}
+
+#title {
+  display: flex;
+  height: 10rem;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  padding: 0 5rem;
+  align-items: center;
+}
+
+#title img {
+  width: 13rem;
+}
+
+#title h1 {
+  color: white;
+  font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#dadosC {
+  background-color: #eef7e6;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 0.6rem;
+  display: flex;
+  position: relative;
+  border-radius: 20px;
+  margin-right: 1rem;
+  margin-bottom: 4rem;
+}
+
+#dadosC input {
+  border: 0;
+  border-radius: 10px;
+  background-color: #7bb062;
+  width: 15rem;
+  height: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#doctor {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#doctor input {
+  width: 40rem;
+}
+
+#submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6rem;
+  margin-top: 2rem;
+}
+
+#submit img {
+  width: 6rem;
+}
+
+#enviar {
+  background-color: #7bb062;
+  border: 0;
+  border-radius: 40px;
+  width: 15rem;
+  height: 2rem;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
