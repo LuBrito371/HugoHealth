@@ -31,14 +31,16 @@
         <form action="" id="dados">
           <img src="assets/user 10.png" alt="" id="perfil"/>
           <label for="">Nome</label>
-          <input type="text" />
+          <input type="text" name="nome" placeholder="Name" required="required"/>
           <label for="">Idade</label>
-          <input type="number" />
+          <input type="number" name="idade" placeholder="Idade" required="required"/>
           <label for="">Matricula</label>
-          <input type="text" />
+          <input type="text" name="matricula" placeholder="Matricula" required="required"/>
           <label for="">Salário</label>
-          <input type="text" />
-          <button type="submit" id="submitA">Cadastrar</button>
+          <input type="text" name="salario" placeholder="Salário" required="required"/>
+          <button type="submit" id="submitA">
+            <a href="fichaAtendentes.html"></a>
+          </button>
         </form>
       </div>
 
@@ -52,30 +54,21 @@
         <form action="" id="dados">
           <img src="assets/user 10.png" alt="" id="perfil"/>
           <label for="">Nome</label>
-          <input type="text" />
+          <input type="text" name="nome" placeholder="Nome" required="required"/>
           <label for="">Idade</label>
-          <input type="number" />
+          <input type="number" name="idade" placeholder="Idade" required="required"/>
           <label for="">Matricula</label>
-          <input type="text" />
+          <input type="text" name="matricula" placeholder="Matricula" required="required"/>
           <label for="">Salário</label>
-          <input type="text" />
-          <button type="submit" id="submitM">Cadastrar</button>
+          <input type="text" name="salario" placeholder="Salário" required="required"/>
+          <button type="submit" id="submitM">
+
+            <a href="fichaMedicos.html"></a>
+          </button>
         </form>
       </div>
       <img src="assets/Medicine (2) 1.png" alt="" id="func"/>
     </div>
   </body>
-  <script>
-    var btnElement = document.getElementById("submitA");
-
-    btnElement.onclick = function(){
-      window.location.href = "fichaAtendentes.html";
-    };
-
-    var btnElement = document.getElementById("submitM");
-
-    btnElement.onclick = function(){
-      window.location.href = "fichaMedicos.html";
-    };
-  </script>
+  
 </html>
